@@ -7,7 +7,7 @@
       <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
       <title>Jordan Sussman</title>
    </head>
-   <body>
+   <body style="visibility: hidden;" onload="js_Load()">
       <section class="about section" id="about">
          <div class="about__container bd-grid">
             <div class="about__img">
@@ -26,6 +26,6 @@
          </div>
       </section>
       <script src="https://unpkg.com/scrollreveal"></script>
-      <script src="assets/js/main.js"></script>
+      <script src="assets/js/main.js"> document.body.style.visibility='visible';</script>
    </body>
 </html>
