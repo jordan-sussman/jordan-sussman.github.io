@@ -1,7 +1,7 @@
 ## README
 A responsive website showcasing my professional background to share with the world.
 
-![](website.png)
+![](assets/img/website.png)
 
 Built with:
 ```
