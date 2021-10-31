@@ -1,7 +1,7 @@
 ## README
 A short and responsive website showcasing my professional background.
 <br>
-Check it out here - https://jordan-sussman.github.io
+View live here - https://jordan-sussman.github.io
 
 Preview (v1):
 ![](assets/img/website_screenshot.png)
