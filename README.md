@@ -12,3 +12,7 @@ Built with:
 - CSS
 - JavaScript
 ```
+To view:
+```
+Go to https://jordan-sussman.github.io in your browser
+```
