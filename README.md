@@ -3,7 +3,7 @@ A short and responsive website showcasing my professional background.
 <br>
 View live here - https://jordan-sussman.github.io
 
-Preview:
+Preview (version 1):
 ![](assets/img/website_screenshot.png)
 
 Built with:
