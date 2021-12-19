@@ -98,9 +98,11 @@ img{
 .about__img{
   justify-self: center;
   padding-bottom: 25%;
-  width: 500px;
   border-radius: .5rem;
   pointer-events: none;
+}
+about__img img{
+  width: 500px;
 }
 
 /* OBJECTS */
