@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --header-height: 3rem;
-  --font-semi: 600;
-  --first-color: #4070F4;
-  --second-color: #0E2431;
   --body-font: 'Poppins', sans-serif;
+  --first-color: #4070F4;
+  --font-semi: 600;
   --h2-font-size: 1.25rem;
-  --normal-font-size: 0.938rem;
+  --header-height: 3rem;
   --mb-2: 1rem;
+  --normal-font-size: 0.938rem;
+  --second-color: #0E2431;
 }
 
 html {
@@ -16,10 +16,11 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  background-color: #fff;
+  color: var(--second-color);
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  margin: var(--header-height) 0 0 0;
   visibility: hidden;
 }
 
@@ -32,19 +33,19 @@ a {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
   display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .bd-grid {
-  max-width: 1024px;
   display: grid;
-  grid-template-columns: 100%;
   grid-column-gap: 2rem;
-  width: calc(100% - 2rem);
+  grid-template-columns: 100%;
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+  max-width: 1024px;
+  width: calc(100% - 2rem);
 }
 
 .home__social {
@@ -53,11 +54,11 @@ img {
 }
 
 .home__social-icon {
-  width: max-content;
+  color: var(--second-color);
+  font-size: 2rem;
   margin-bottom: var(--mb-2);
   margin-right: 5px;
-  font-size: 2rem;
-  color: var(--second-color);
+  width: max-content;
 }
 
 .home__social-icon:hover {
@@ -73,14 +74,15 @@ img {
 }
 
 .about__img {
+  border-radius: .5rem;
   justify-self: center;
   padding-bottom: 10%;
-  border-radius: .5rem;
   pointer-events: none;
 }
 
 @media screen and (max-width: 768px) {
   .about__main {padding: 0 5%;}
+  .home__social{padding-bottom: 100px;}
 }
 
 @media screen and (min-width: 768px) {
@@ -93,6 +95,9 @@ img {
 @media screen and (min-width: 768px) {
   .about__container {
     padding-top: 250px;
+  }
+  .about__main {
+    padding-bottom: 25%;
   }
   .about__img {
     padding-bottom: 20%;
@@ -117,9 +122,9 @@ img {
   }
 
   .home__social {
-    padding-bottom: 1rem;
-    flex-direction: row;
     align-self: flex-end;
+    flex-direction: row;
+    padding-top: 5px;
   }
 
   .home__social-icon {
