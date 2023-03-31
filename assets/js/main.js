@@ -1,14 +1,13 @@
-/* SCROLL REVEAL ANIMATION */
+/* SCROLL REVEAL ANIMATIONS */
 const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
+    origin: "top",
+    distance: "80px",
+    duration: 1500,
+    reset: true,
 });
 
-/* SCROLL HOME SOCIAL */
-sr.reveal('.home__social-icon',{interval: 100}); 
-/*SCROLL ABOUT*/
-sr.reveal('.about__img',{}); 
-sr.reveal('.about__subtitle',{delay: 400}); 
-sr.reveal('.about__text',{delay: 400});
+sr.reveal(".header__section",{delay: 600, origin: "bottom"})
+sr.reveal(".home__social-icon",{interval: 100, delay: 400, origin: "bottom"}); 
+sr.reveal(".about__img",{delay: 200, origin: "left"}); 
+sr.reveal(".about__subtitle",{delay: 400,}); 
+sr.reveal(".about__text",{delay: 200, origin: "right"});
