@@ -61,6 +61,7 @@ img {
 }
 
 .header__text {
+  display: none;
   font-size: 100px;
   letter-spacing: -8px;
   text-align: center;
@@ -136,6 +137,9 @@ img {
 
 @media screen and (min-width: 1120px) {
   .header__section {
+    display: block;
+  }
+  .header__text {
     display: block;
   }
 }
