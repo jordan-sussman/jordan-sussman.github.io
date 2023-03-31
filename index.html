@@ -16,7 +16,7 @@
          .js-enabled .fooReveal { visibility: hidden; }
        </style>
    </head>
-   <body>
+   <body class="fooReveal">
       <header class="header__section">
          <h1 class="header__text">Jordan &nbsp; Sussman</h1>
       </header>
@@ -65,7 +65,7 @@
       <script src="assets/js/main.js"></script>
       <script>
          window.sr = ScrollReveal();
-         sr.reveal('.fooReveal');
+         ScrollReveal().reveal('.fooReveal');
        </script>
    </body>
 </html>
