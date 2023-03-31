@@ -55,13 +55,13 @@ img {
 
 .header__section {
   cursor: default;
-  display: none;
+  display: block;
   position: absolute;
   transform:  translateX(-44.5%) translateY(22vh) rotate(90deg);
 }
 
 .header__text {
-  display: none;
+  display: block;
   font-size: 100px;
   letter-spacing: -8px;
   text-align: center;
@@ -135,12 +135,12 @@ img {
   }
 }
 
-@media screen and (min-width: 1120px) {
+@media screen and (max-width: 1120px) {
   .header__section {
-    display: block;
+    display: none;
   }
   .header__text {
-    display: block;
+    display: none;
   }
 }
 
