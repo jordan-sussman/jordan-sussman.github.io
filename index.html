@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sr">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,12 @@
       <meta property="og:title" content="Jordan Sussman">
       <meta property="og:image" content="https://jordan-sussman.github.io/assets/img/webcard.png"/>
       <title>Jordan Sussman</title>
+      <script>
+         document.documentElement.classList.add('js-enabled');
+       </script>
+       <style>
+         .js-enabled .fooReveal { visibility: hidden; }
+       </style>
    </head>
    <body>
       <header class="header__section">
@@ -56,6 +62,10 @@
          </div>
       </section>
       <script src="https://unpkg.com/scrollreveal"></script>
-      <script src="assets/js/main.js"> document.body.style.visibility='visible';</script>
+      <script src="assets/js/main.js"></script>
+      <script>
+         window.sr = ScrollReveal();
+         sr.reveal('.fooReveal');
+       </script>
    </body>
 </html>
