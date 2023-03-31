@@ -3,7 +3,7 @@ const sr = ScrollReveal({
     origin: "top",
     distance: "80px",
     duration: 1500,
-    reset: false,
+    reset: false
 });
 
 sr.reveal(".header__section",{delay: 600, origin: "bottom"});
