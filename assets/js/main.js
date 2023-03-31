@@ -6,7 +6,7 @@ const sr = ScrollReveal({
     reset: false,
 });
 
-sr.reveal(".header__section",{delay: 600, origin: "bottom"})
+sr.reveal(".header__section",{delay: 600, origin: "bottom"});
 sr.reveal(".home__social-icon",{interval: 100, delay: 400, origin: "bottom"}); 
 sr.reveal(".about__img",{delay: 200, origin: "left"}); 
 sr.reveal(".about__subtitle",{delay: 400,}); 
