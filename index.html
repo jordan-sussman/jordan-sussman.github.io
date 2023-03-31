@@ -4,13 +4,16 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="assets/css/styles.css">
-      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+      <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
       <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
       <meta property="og:title" content="Jordan Sussman">
       <meta property="og:image" content="https://jordan-sussman.github.io/assets/img/webcard.png"/>
       <title>Jordan Sussman</title>
    </head>
    <body>
+      <header class="header__section">
+         <h1 class="header__text">Jordan &nbsp; Sussman</h1>
+      </header>
       <section class="about section">
          <div class="about__container bd-grid">
             <div class="about__img">
@@ -18,7 +21,7 @@
             </div>
             <div class="about__main">
                <h2 class="about__subtitle">
-                  <span class="wave">👋</span> &nbsp; Hi
+                  <span class="wave">👋</span> &nbsp; Good to see <span class="gradient">you</span>
                </h2>
                <p class="about__text">
                   I'm a software engineer hailing from the Pacific Northwest.
@@ -32,17 +35,27 @@
                   ideation, to execution, and beyond.
                   
                   Thanks for dropping by and feel free to connect with me below.
-                  <br>
-                  <small>- <b>Jordan Sussman</b></small>
                </p>
                <div class="home__social">
-                  <a href="https://www.linkedin.com/in/jordansussman" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                  <a href="https://www.github.com/jordan-sussman" class="home__social-icon" target="_blank"><i class='bx bxl-github'></i></a>
-                  <a href="https://open.spotify.com/user/uoyvf4gfcdo3bvf1tuvqgl4g7?si=8619d234a0794f02" class="home__social-icon" target="_blank"><i class='bx bxl-spotify'></i></a>
+                  <a class="home__social-icon" 
+                     href="https://www.linkedin.com/in/jordansussman" 
+                     target="_blank">
+                     <i class="bx bxl-linkedin"></i>
+                  </a>
+                  <a class="home__social-icon" 
+                     href="https://www.github.com/jordan-sussman" 
+                     target="_blank">
+                     <i class="bx bxl-github"></i>
+                  </a>
+                  <a class="home__social-icon" 
+                     href="https://open.spotify.com/user/uoyvf4gfcdo3bvf1tuvqgl4g7?si=8619d234a0794f02" 
+                     target="_blank">
+                     <i class="bx bxl-spotify"></i>
+                  </a>
                </div>
          </div>
       </section>
       <script src="https://unpkg.com/scrollreveal"></script>
-      <script src="assets/js/main.js"> document.body.style.visibility='visible';</script>
+      <script src="assets/js/main.js"></script>
    </body>
 </html>
