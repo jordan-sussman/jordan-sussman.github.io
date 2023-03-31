@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
   --first-color: #4070F4;
   --font-semi: 600;
   --h2-font-size: 1.25rem;
@@ -21,7 +21,6 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   margin: var(--header-height) 0 0 0;
-  visibility: hidden;
 }
 
 p {
@@ -38,7 +37,39 @@ img {
   max-width: 100%;
 }
 
+.gradient {
+  background: linear-gradient(-45deg, #0a2d8e, #4070F4, #23a6d5, #23d5ab);
+  animation: gradient 5s ease infinite;
+  background-size: 400% 400%;
+  height: 20vh;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.header__section {
+  cursor: default;
+  display: none;
+  position: absolute;
+  transform:  translateX(-44.5%) translateY(22vh) rotate(90deg);
+}
+
+.header__text {
+  font-size: 100px;
+  letter-spacing: -8px;
+  text-align: center;
+  text-transform: uppercase;
+  transform: scale(0.8, 1.4);
+}
+
 .bd-grid {
+  cursor: default;
   display: grid;
   grid-column-gap: 2rem;
   grid-template-columns: 100%;
@@ -74,7 +105,6 @@ img {
 }
 
 .about__img {
-  border-radius: .5rem;
   justify-self: center;
   padding-bottom: 10%;
   pointer-events: none;
@@ -97,10 +127,16 @@ img {
     padding-top: 250px;
   }
   .about__main {
-    padding-bottom: 25%;
+    padding-bottom: 24%;
   }
   .about__img {
     padding-bottom: 20%;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .header__section {
+    display: block;
   }
 }
 
@@ -122,9 +158,7 @@ img {
   }
 
   .home__social {
-    align-self: flex-end;
-    flex-direction: row;
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   .home__social-icon {
