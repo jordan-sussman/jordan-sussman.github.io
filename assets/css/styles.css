@@ -57,7 +57,7 @@ img {
   cursor: default;
   display: block;
   position: absolute;
-  transform:  translateX(-44.5%) translateY(220px) rotate(90deg);
+  transform:  translateX(-44%) translateY(200px) rotate(90deg);
 }
 
 .header__text {
