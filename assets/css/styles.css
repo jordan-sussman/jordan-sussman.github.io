@@ -146,6 +146,7 @@ img {
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
+  white-space: nowrap;
 }
 
 /* IMAGE SECTION */
@@ -174,6 +175,9 @@ img {
   }
   .about__main {
     border-left: none;
+  }
+  .about__subtitle {
+    font-size: 1.2rem;
   }
   .about__img {
     padding-bottom: 10px;
