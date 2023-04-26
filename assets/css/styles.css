@@ -174,10 +174,9 @@ img {
   }
   .about__main {
     border-left: none;
-    width: 75%;
   }
   .about__img {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     max-width: 50vw;
   }
 }
