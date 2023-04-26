@@ -1,13 +1,18 @@
 /* SCROLL REVEAL ANIMATIONS */
 const sr = ScrollReveal({
-    origin: "top",
-    distance: "80px",
-    duration: 1500,
-    reset: false,
+  origin: "top",
+  distance: "80px",
+  duration: 1400,
+  reset: false,
 });
 
-sr.reveal(".header__section",{delay: 600, origin: "bottom"});
+sr.reveal(".header__section",{delay: 200});
 sr.reveal(".home__social-icon",{interval: 100, delay: 400, origin: "bottom"}); 
-sr.reveal(".about__img",{delay: 200, origin: "left"}); 
-sr.reveal(".about__subtitle",{delay: 400,}); 
-sr.reveal(".about__text",{delay: 200, origin: "right"});
+sr.reveal(".about__img",{delay: 600, origin: "left"}); 
+sr.reveal(".about__subtitle",{delay: 400}); 
+sr.reveal(".about__main",{delay: 400, origin: "right"});
+sr.reveal(".about__text",{delay: 400, origin: "right"});
+
+document.addEventListener("contextmenu", function (e) {
+  e.preventDefault();
+});
