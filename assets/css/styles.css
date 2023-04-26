@@ -174,7 +174,7 @@ img {
   }
   .about__img {
     padding-bottom: 20px;
-    width: 50vw;
+    max-width: 50vw;
   }
 }
 
