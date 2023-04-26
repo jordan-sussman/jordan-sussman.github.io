@@ -80,6 +80,7 @@ img {
   display: flex;
   font-size: 14px;
   justify-content: space-between;
+  white-space: nowrap;
 }
 
 .header__text {
@@ -93,7 +94,6 @@ img {
   padding: 4px 12px;
   border-radius: 14px;
   max-height: 20px;
-  white-space: nowrap;
 }
 
 .header__subtext {
