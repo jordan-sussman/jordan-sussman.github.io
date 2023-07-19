@@ -1,6 +1,6 @@
 ## README
 
-A website showcasing my professional background in the form of a terminal.
+A website showcasing my professional background in the form of an interactive terminal.
 
 Built with:
 
@@ -11,7 +11,5 @@ Built with:
 ```
 
 View live:
-
-```
-Go to https://jordan-sussman.github.io in your browser
-```
+<br>
+https://jordan-sussman.github.io
