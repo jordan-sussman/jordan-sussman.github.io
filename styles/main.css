@@ -188,5 +188,6 @@ input:focus {
 
 /* Query for mobile devices */
 @media (max-width: 900px) {
-  .container {height: 500px}
+  .container {height: 500px;}
+  .title {position: relative; right: 30px;}
 }
