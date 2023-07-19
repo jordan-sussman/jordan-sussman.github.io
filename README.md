@@ -1,15 +1,5 @@
-## README
-A short and responsive website showcasing my professional background.
-<br>
-View live here - https://jordan-sussman.github.io
+# Message Jordan
 
-Built with:
-```
-- HTML
-- CSS
-- JavaScript
-```
-To view:
-```
-Go to https://jordan-sussman.github.io in your browser
-```
+LINK HERE
+
+Mini site inspired and adapted from Julian Garnier.
