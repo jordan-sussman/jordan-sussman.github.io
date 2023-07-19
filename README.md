@@ -12,4 +12,4 @@ Built with:
 
 View live:
 <br>
-https://jordan-sussman.github.io
+<a href='https://www.jordan-sussman.github.io' target='_blank'>jordan-sussman.github.io</a>
