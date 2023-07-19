@@ -11,5 +11,5 @@ Built with:
 ```
 
 View live:
-<br>
-https://jordan-sussman.github.io
+<be>
+<a href='https://jordan-sussman.github.io'>jordan-sussman.github.io</a>
