@@ -23,7 +23,7 @@ async function open_terminal() {
   await delay(700);
   createText("starting server...");
   await delay(1500);
-  createText("enter a command:");
+  createText("enter a command to start:");
   createCode("about", "learn about jordan");
   createCode("links", "explore and connect");
   createCode("where", "companies jordan has been a part of");
