@@ -115,7 +115,7 @@ async function getInputValue() {
       trueValue(value);
       createCode("Frontend:", "JavaScript  TypeScript  React  HTML  CSS");
       createCode("Backend:", "Ruby  Rails  Python  SQL");
-      createCode("Other:", "Git  SSO Flask  Node  Max MSP");
+      createCode("Other:", "Git  SSO Flask  Node  MaxMSP");
     },
 
     image: () => {
