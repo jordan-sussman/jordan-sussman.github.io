@@ -115,6 +115,7 @@ div.title {
   height: 100%;
   padding: 8px;
   overflow: auto;
+  line-height: 17px;
 }
 p {
   font-size: 14px;
