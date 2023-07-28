@@ -26,8 +26,8 @@ async function open_terminal() {
   createText("type a command to start:");
   createCode("about", "learn about jordan");
   createCode("links", "explore and connect");
-  createCode("where", "companies jordan has been a part of");
-  createCode("skills", "primarily used languages and frameworks");
+  createCode("where", "work experience");
+  createCode("skills", "languages and frameworks");
   createCode("help", "see all commands");
   await delay(500);
   new_line();
@@ -68,10 +68,10 @@ async function getInputValue() {
       trueValue(value);
       createCode("about", "learn about jordan");
       createCode("links", "explore and connect");
-      createCode("where", "companies jordan has been a part of");
-      createCode("skills", "primarily used languages and frameworks");
+      createCode("where", "work experience");
+      createCode("skills", "languages and frameworks");
       createCode("image", "a photo of jordan");
-      createCode("now", "whats exciting right now");
+      createCode("now", "interesting right now");
       createCode("clear", "clear out terminal");
       createCode("help", "see all commands");
     },
@@ -115,7 +115,7 @@ async function getInputValue() {
       trueValue(value);
       createCode("Frontend:", "JavaScript  TypeScript  React  HTML  CSS");
       createCode("Backend:", "Ruby  Rails  Python  SQL");
-      createCode("Other:", "Git  SSO Flask  Node  MaxMSP");
+      createCode("Other:", "Git  SSO  Flask  Node  MaxMSP");
     },
 
     image: () => {
