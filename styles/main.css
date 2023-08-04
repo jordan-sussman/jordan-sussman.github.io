@@ -71,7 +71,6 @@ body {
   height: 10px;
   border-radius: 50%;
   margin-right: 8px;
-  /* cursor:pointer; */
 }
 .red {
   background-color: #f5544d;
@@ -190,5 +189,5 @@ input:focus {
 /* Query for mobile devices */
 @media (max-width: 600px) {
   .container {height: 500px;}
-  .title {position: relative; right: 30px;}
+  .title {position: relative; right: 20px;}
 }
