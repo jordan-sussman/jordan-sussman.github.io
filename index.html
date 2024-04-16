@@ -1,35 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <meta property="og:title" content="Jordan Sussman" />
-    <meta property="og:image" content="https://jordan-sussman.github.io/images/webcard.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet" />
-    <link href="styles/icons.css" rel="stylesheet" />
-    <link href="styles/main.css" rel="stylesheet" />
-    <title>Jordan Sussman</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="menu">
-        <div class="buttons-flex">
-          <div class="button red"></div>
-          <div class="button yellow"></div>
-          <div class="button green"></div>
-        </div>
-        <div class="title">
-            <h1><i class="fa fa-folder"></i> jordan-sussman</h1>
-        </div>
-        <div class="link">
-          <a href="https://www.github.com/jordan-sussman" target="_blank">
-            <i class="fab fa-github white"></i>
-          </a>
-        </div>
-      </div>
-      <div id="app"></div>
-    </div>
-    <script src="scripts/main.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="assets/favicon.ico"
+        />
+        <meta property="og:title" content="Jordan Sussman" />
+        <meta
+            property="og:image"
+            content="https://jordan-sussman.github.io/assets/webcard.png"
+        />
+        <title>Jordan Sussman</title>
+        <script>
+            document.documentElement.classList.add("js-enabled");
+        </script>
+        <style>
+            .js-enabled .fooReveal {
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body class="fooReveal">
+        <section class="about__section">
+            <div class="about__container grid">
+                <div class="about__main">
+                    <p class="about__text">
+                    <h1>Let's build a brighter internet together.</h1>
+                        First, an introduction. <b>Jordan Sussman</b> is a
+                        full-stack software engineer based out of the Pacific
+                        Northwest. He's worked at forward-thinking companies
+                        facing challenges in health, live events, consumer
+                        technology, and marketing. His current contributions
+                        focus on building a feature-rich platform where companies of all sizes orchestrate their
+                        marketing material at scale.
+                        <br />
+                        <br />
+                        Over a decade of experience at a diverse range of
+                        companies
+                        <br />
+                        <a href="https://www.apple.com" target="_blank"
+                            >Apple</a
+                        >
+                        -
+
+                        <a href="https://www.zocdoc.com" target="_blank"
+                            >Zocdoc</a
+                        >
+                        -
+
+                        <a href="https://www.seatgeek.com" target="_blank"
+                            >SeatGeek</a
+                        >
+                        -
+
+                        <a href="https://www.workwithopal.com" target="_blank"
+                            >Opal</a
+                        >
+                        (current)
+                        <br />
+                        <br />
+                        Enjoys a modern stack with variety
+                        <br />
+                        <b>Frontend</b> - JavaScript / TypeScript / React / HTML
+                        / CSS
+                        <br />
+                        <b>Backend</b> - Ruby / Rails / Elixir / Python / SQL
+                        <br />
+                        <b>More</b> - Git / SSO / Node / Flask / MaxMSP
+                        <br />
+                        <br />
+                        If you're interested in working together or just want to say hello, send an
+                        <a
+                            href="mailto:collabwithjordan@gmail.com"
+                            target="_blank"
+                        >
+                            email</a
+                        >. If you're wondering about music preferences, because
+                        of course you are, listen on
+                        <a
+                            href="https://open.spotify.com/user/uoyvf4gfcdo3bvf1tuvqgl4g7?si=8619d234a0794f02"
+                            target="_blank"
+                        >
+                            Spotify</a
+                        >. Open source projects and
+                        contributions can be found on
+                        <a
+                            href="https://www.github.com/jordan-sussman"
+                            target="_blank"
+                        >
+                            GitHub</a
+                        >
+                        with private contributions visible on the profile grid.<br /><br />
+                        Thanks for stopping by this corner of the internet.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            window.sr = ScrollReveal();
+            ScrollReveal().reveal(".fooReveal");
+        </script>
+    </body>
 </html>
+
