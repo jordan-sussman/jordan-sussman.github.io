@@ -1,6 +1,6 @@
 ## README
 
-A website showcasing my professional background in the form of an interactive terminal.
+A website showcasing my professional background.
 
 Built with:
 
