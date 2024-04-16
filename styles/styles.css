@@ -47,7 +47,6 @@ p {
 
 a:link,
 a:visited {
-    /* text-decoration: none; */
     font-weight: var(--font-semi);
     color: var(--second-color);
 }
