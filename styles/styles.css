@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* VARIABLE DEFINITIONS */
+:root {
+    --body-font: "DM Sans", sans-serif;
+    --first-color: #003773;
+    --font-semi: 600;
+    --h2-font-size: 1.25rem;
+    --header-height: 3rem;
+    --mb-2: 1rem;
+    --normal-font-size: 1.2rem;
+    --second-color: #c2f6ff;
+}
+
+/*
+COLOR ALTERNATIVES
+#699880 #16c098
+#4070F4 #b39687
+ACTIVE COLORS
+#efebe7 #a48779
+#dcdcdc #07b707
+ACTIVE BLACK
+#0e2431
+#efebe7
+*/
+
+/* IMPORTANT DEFAULTS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0064e6;
+    color: var(--second-color);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-feature-settings: "liga", "dlig";
+    font-style: normal;
+    letter-spacing: 0.002rem;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a:link,
+a:visited {
+    /* text-decoration: none; */
+    font-weight: var(--font-semi);
+    color: var(--second-color);
+}
+a:hover {
+    color: var(--first-color);
+}
+
+/* KEY LAYOUT STYLES */
+.grid {
+    cursor: default;
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template-columns: 100%;
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+    max-width: 1024px;
+    width: calc(100% - 2rem);
+}
+
+.about__section {
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+
+/* TEXT SECTION */
+.about__container {
+    align-items: center;
+    text-align: initial;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.about__main {
+    margin: 0 auto;
+    padding: 20px;
+}
