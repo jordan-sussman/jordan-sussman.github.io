@@ -41,12 +41,20 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-style: italic;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+}
+
 p {
     margin: 0;
 }
 
-a:link,
-a:visited {
+a:link {
     font-weight: var(--font-semi);
     color: var(--second-color);
 }
