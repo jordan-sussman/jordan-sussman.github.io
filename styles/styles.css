@@ -54,7 +54,8 @@ p {
     margin: 0;
 }
 
-a:link {
+a:link,
+a:visited {
     font-weight: var(--font-semi);
     color: var(--second-color);
 }
