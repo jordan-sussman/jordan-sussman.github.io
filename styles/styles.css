@@ -72,7 +72,7 @@ a:hover {
   grid-template-columns: 100%;
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
-  max-width: 505px;
+  max-width: 500px;
   width: calc(100% - 2rem);
 }
 
