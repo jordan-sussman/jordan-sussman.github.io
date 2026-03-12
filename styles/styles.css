@@ -8,11 +8,16 @@
   padding: 0;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   background: #ebebeb;
   color: #111;
   font-family: "Outfit", sans-serif;
   height: 100dvh;
+  height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
   justify-content: center;
