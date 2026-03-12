@@ -1,72 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
     <meta property="og:title" content="Jordan Sussman" />
     <meta
       property="og:image"
       content="https://jordan-sussman.github.io/images/webcard.png"
     />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Jordan Sussman</title>
-    <script>
-      document.documentElement.classList.add("js-enabled");
-    </script>
-    <style>
-      .js-enabled .fooReveal {
-        visibility: hidden;
-      }
-    </style>
   </head>
-  <body class="fooReveal">
-    <section class="about__section">
-      <div class="about__container grid">
-        <div class="about__main">
-          <div class="header__container">
-            <img src="images/favicon.ico" />
-            <h1 class="header">Hi, I'm Jordan!</h1>
-          </div>
-          Full-stack software engineer building products people love.
-          <br />
-          <br />
-          Over a decade of experience at companies like
-          <a href="https://www.seatgeek.com" target="_blank">SeatGeek</a>,
-          <a href="https://www.zocdoc.com" target="_blank">Zocdoc</a>, and
-          <a href="https://www.apple.com" target="_blank">Apple</a>. Currently
-          working on
-          <a href="https://www.workwithopal.com" target="_blank">Opal</a>, a
-          platform where marketing comes together.
-          <br />
-          <br />
-          A fan of modern tech stacks, with a soft spot for the classics. Always
-          looking out for the next hot framework or library.
-          <br />
-          <br />
-          Connect on
-          <a href="https://www.github.com/jordan-sussman" target="_blank"
-            >GitHub</a
-          >,
-          <a href="https://linkedin.com/in/jordansussman" target="_blank"
-            >LinkedIn</a
-          >, or
-          <a href="mailto:collabwithjordan@gmail.com" target="_blank">email</a>.
-          Listen with on
-          <a
-            href="https://open.spotify.com/user/uoyvf4gfcdo3bvf1tuvqgl4g7?si=8619d234a0794f02"
-            target="_blank"
-          >
-            Spotify</a
-          >.
-        </div>
-      </div>
-    </section>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="scripts/main.js"></script>
-    <script>
-      window.sr = ScrollReveal();
-      ScrollReveal().reveal(".fooReveal");
-    </script>
+  <body>
+    <div class="bio">
+      <p>
+        Full-stack software engineer building products people love.
+        <br />
+        Currently a Senior Software Engineer at
+        <a href="https://workwithopal.com" target="_blank">Opal</a>, a platform
+        where marketing comes together.
+        <br />
+        Previously @
+        <a href="https://seatgeek.com" target="_blank">SeatGeek</a>,
+        <a href="https://zocdoc.com" target="_blank">Zocdoc</a>, and
+        <a href="https://apple.com" target="_blank">Apple</a>.
+        <br />
+        From zero users to millions, I've contributed on both ends.
+        <br />
+        Connrect or collaborate in whatever form that takes.
+      </p>
+      <p class="links">
+        (
+        <a href="https://github.com/jordan-sussman" target="_blank">GitHub</a>
+        &nbsp;·&nbsp;
+        <a href="https://linkedin.com/in/jordansussman" target="_blank"
+          >LinkedIn</a
+        >
+        &nbsp;·&nbsp;
+        <a href="mailto:collabwithjordan@gmail.com" target="_blank">Email</a>
+        )
+      </p>
+    </div>
+
+    <div class="name-wrap">
+      <h1>SUSSMAN</h1>
+    </div>
   </body>
+  <script>
+    document.addEventListener("contextmenu", (e) => e.preventDefault());
+  </script>
 </html>
