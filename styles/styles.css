@@ -12,7 +12,7 @@ body {
   background: #ebebeb;
   color: #111;
   font-family: "Outfit", sans-serif;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
