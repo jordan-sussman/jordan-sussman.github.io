@@ -221,3 +221,21 @@ body {
 .blog-post-content a:hover {
   opacity: 0.5;
 }
+
+pre {
+  background: #d9d7d3;
+  border-left: 3px solid #111;
+  padding: 1.2em 1.5em;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 2px;
+}
+
+pre code {
+  font-family: 'DM Mono', 'Courier New', monospace;
+  font-size: 0.85em;
+  line-height: 1.6;
+  color: #111;
+  background: none;
+  padding: 0;
+}
