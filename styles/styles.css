@@ -117,27 +117,30 @@ body {
 .blog-page {
   overflow: auto;
   justify-content: flex-start;
+  align-items: center;
   height: auto;
   min-height: 100dvh;
   padding: 4rem 2rem 6rem;
 }
 
 .blog-container {
-  max-width: 680px;
-  margin: 0 auto;
+  width: 50vw;
+  margin: auto;
 }
 
 .blog-back {
   display: inline-block;
   font-size: 0.85em;
-  color: #555;
-  text-decoration: none;
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
   margin-bottom: 2rem;
   letter-spacing: -0.01em;
+  font-weight: bold;
 }
 
 .blog-back:hover {
-  color: #111;
+  opacity: 0.5;
 }
 
 .blog-container h1 {
@@ -164,8 +167,13 @@ body {
 .blog-list a {
   font-size: clamp(14px, 1.4vw, 16px);
   color: #111;
-  text-decoration: none;
-  font-weight: 400;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.blog-list a:visited {
+  color: #111;
 }
 
 .blog-list a:hover {
@@ -205,6 +213,7 @@ body {
 
 .blog-post-content a {
   color: #111;
+  font-weight: bold;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
