@@ -12,19 +12,19 @@ For software engineers, when interfacing with these language models (or "AI"), w
 ```typescript
 // What the model gives you
 const parseResponse = (data: any) => {
-  return data.user.name;
-};
+  return data.user.name
+}
  
 // What you actually need
 type ApiResponse = {
   user: {
-    name: string;
-  };
-};
+    name: string
+  }
+}
  
 const parseResponse = (data: ApiResponse): string => {
-  return data.user.name;
-};
+  return data.user.name
+}
 ```
 
 
