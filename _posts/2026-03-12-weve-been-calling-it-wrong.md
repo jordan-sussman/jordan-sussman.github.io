@@ -30,4 +30,4 @@ const parseResponse = (data: ApiResponse): string => {
 
 The first version compiles and runs fine. For a novice engineer, maybe that's enough. For scalable and large codebases, this isn't acceptable as you've then lost the safety net TypeScript was there to provide. The model isn't cutting corners, it genuinely has no concept of "type-safe", it just matched a pattern. Engineers who understand this don't blindly accept the output; they treat it like code from a junior developer who has read plenty but shipped very little. You review it, question it, and often rewrite it. That relationship changes how you work with these tools productively.
  
-So let me clear this up. Language models as we know them today are mirrors, not windows. They reflect a world they were trained on, and when they perform well, it's because those patterns were good approximations of what is needed. A great pattern matcher. 
+Language models as we know them today are mirrors, not windows. They reflect a world they were trained on, and when they perform well, it's because those patterns were good approximations of what is needed. A great pattern matcher. 
