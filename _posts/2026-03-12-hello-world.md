@@ -3,8 +3,6 @@ layout: post
 title: "Hello World"
 ---
 
-# Hello World
-
 This is an initial test post. Some lorem below.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam nunc massa, at mattis massa vestibulum vitae. Proin ullamcorper lacus non commodo sodales. Suspendisse eu tempus ipsum, in faucibus diam. In hac habitasse platea dictumst. Duis elementum dolor id metus eleifend, varius auctor nunc hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean a metus ut tellus iaculis porttitor tempor a orci.
