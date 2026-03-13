@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "We've Been Calling It the Wrong Thing"
+title: "We've Been Calling It Wrong"
 ---
 
 The term *"artificial intelligence"* carries a lot of weight. Maybe you think of machines like robots making their own decisions, understandings, and reasonings with the world they inhabit. We know that isn't the case, at least not right now. Instead, we get a sophisticated pattern matcher. This isn't a criticism, more a clarification I wish was a given.
