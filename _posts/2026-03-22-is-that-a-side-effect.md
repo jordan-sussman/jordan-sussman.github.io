@@ -8,16 +8,16 @@ If you've spent any time in a React codebase, you've seen it. A `useEffect` at t
 This is the pattern that should give you pause:
 
 ```tsx
-const [user, setUser] = useState(null);
-const [loading, setLoading] = useState(false);
+const [user, setUser] = useState(null)
+const [loading, setLoading] = useState(false)
 
 useEffect(() => {
-  setLoading(true);
+  setLoading(true)
   fetchUser(id).then((data) => {
-    setUser(data);
-    setLoading(false);
-  });
-}, [id]);
+    setUser(data)
+    setLoading(false)
+  })
+}, [id])
 ```
 
 No cleanup, no error handling, no cancellation. If `id` changes before the fetch resolves you'll set stale data. Failures are silent. Race conditions are a matter of when, not if. This is three problems pretending to be one `useEffect`.
@@ -32,7 +32,7 @@ const {
 } = useQuery({
   queryKey: ["user", id],
   queryFn: () => fetchUser(id),
-});
+})
 ```
 
 Same result, no boilerplate, no race conditions, and the component is back to describing what it renders rather than how it fetches.
@@ -42,8 +42,8 @@ State management has the same story. Effects used to keep state in sync across c
 ```tsx
 // Syncing state across components with useEffect is a losing battle
 useEffect(() => {
-  setGlobalUser(user);
-}, [user]);
+  setGlobalUser(user)
+}, [user])
 ```
 
 Zustand, for instance, makes this straightforward without the overhead of Redux or the fragility of syncing effects.
@@ -52,10 +52,10 @@ Zustand, for instance, makes this straightforward without the overhead of Redux 
 const useUserStore = create((set) => ({
   user: null,
   setUser: (user) => set({ user }),
-}));
+}))
 
 // Anywhere in the tree
-const { user, setUser } = useUserStore();
+const { user, setUser } = useUserStore()
 ```
 
 One source of truth, no syncing required, no effects needed.
