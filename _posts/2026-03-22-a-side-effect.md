@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is That A Side Effect?"
+title: "A Side Effect"
 ---
 
 If you've spent any time in a React codebase, you've seen it. A `useEffect` at the top of a component, a dependency array that's either empty or suspiciously long, and a comment from six months ago that says "don't touch this". It works. Until it doesn't. That's not to say `useEffect` has no place in your codebase, but if you're reaching for it, it's worth asking yourself why.
