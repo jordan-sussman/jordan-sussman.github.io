@@ -15,7 +15,7 @@ The tools we have now are genuinely impressive. A well-prompted model can scaffo
 
 The work that's hard to automate is the same work that's always been hard to automate. Understanding what the product actually needs. Navigating a codebase that grew organically over six years with three different architectural opinions baked in. Knowing when the technically correct solution is the wrong one for this team at this moment. Sitting in a room with a stakeholder who doesn't know what they want yet and helping them figure it out. None of that is in the benchmark.
 
-he writers kept writing. The account men kept lunching. The work that required judgment, relationships, and taste turned out to be pretty resistant to a machine that was very good at processing punch cards. That room is now someone's standing desk, probably with a laptop on it running a model that writes boilerplate faster than any human ever could.
+The writers kept writing. The account men kept lunching. The work that required judgment, relationships, and taste turned out to be pretty resistant to a machine that was very good at processing punch cards. That room is now someone's standing desk, probably with a laptop on it running a model that writes boilerplate faster than any human ever could.
 
 The software engineers who are hardest to replace aren't the ones who implement features fastest. They're the ones who know which features are worth implementing. That skill has survived every wave of automation so far, and I don't expect this one to be any different.
 
