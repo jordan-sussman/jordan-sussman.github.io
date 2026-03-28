@@ -7,7 +7,7 @@ Open source software has always operated on a kind of implicit social contract. 
 
 That contract is now under new pressure.
 
-The most immediate tension is with AI models trained on this open source code. The code is public. The licenses, in most cases, permits it. But the relationship between contributing to a commons and having that commons used to train a commercial product that competes with the people who built it sits uncomfortably with a lot of maintainers. The contribution is made in one spirit ye used in another.
+The most immediate tension is with AI models trained on this open source code. The code is public. The licenses, in most cases, permits it. But the relationship between contributing to a commons and having that commons used to train a commercial product that competes with the people who built it sits uncomfortably with a lot of maintainers. The contribution is made in one spirit, yet used in another.
 
 Some projects have responded by changing their licenses. For example, HashiCorp moved Terraform to a Business Source License. Redis followed. The argument is the same. Loud providers were profiting from the work without giving back. AI has sharpened that argument further. The open source definition hasn't changed, but what it means to make your work public has.
 
