@@ -47,5 +47,4 @@ Defining topics, or rooms, is the fun part. You can assign these to general enti
   <LiveUsers entity={entity.type} entityId={entity.id} />
 ```
 
-Here, you can base a room off a specific entity's unique identifier or you can omit it and use just the entity type as a room for locations like a directory list view, for instance.
-That's it though, just one line and you get user presence into whatever component or view you like. The rest from there is up to you. The unforgettable AOL AIM sound could work its way back into the modern day web app in new ways; we just have to remember to utilize websockets again in what is both something useful and creative.
+Here, you can base a room off a specific entity's unique identifier or you can omit it and use just the entity type as a room for locations like a directory list view, for instance. That's it though, just one line and you get user presence into whatever component or view you like. The rest from there is up to you. The unforgettable AOL AIM sound could work its way back into the modern day web app in new ways; we just have to remember to utilize websockets again in what is both something useful and creative.
