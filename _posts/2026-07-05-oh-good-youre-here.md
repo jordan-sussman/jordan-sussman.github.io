@@ -39,7 +39,7 @@ function OnlineUsers({
 }
 ```
 
-Check it out here - https://github.com/jordan-sussman/phoenix-presence-react
+Check out more here - <a href="https://github.com/jordan-sussman/phoenix-presence-react" target="_blank">https://github.com/jordan-sussman/phoenix-presence-react</a>
 
 Defining topics, or rooms, is the fun part. You can assign these to general entities or each entity's unique identifier, making rooms unique and incredibly useful. Instead of having these be based on routing or the 'current view', you're able to transcend that and bake user presence into every part of your application. It can be as simple as adding a defined component like the above throughout your application in the JSX like the following:
 
