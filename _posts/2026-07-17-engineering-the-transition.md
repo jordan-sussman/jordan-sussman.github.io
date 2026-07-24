@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Engineering the transition"
+title: "Engineering the Transition"
 ---
 
 I love the craft of coding. There's something uniquely therapeutic about it. An idea or solution abstracted by a programming language that you get to write in the way you want. Writing code can look and feel unique, it doesn't just have to work.
