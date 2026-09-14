@@ -84,7 +84,6 @@ body:has(.orb:hover) {
     top: 0;
     bottom: 0;
     width: 8px;
-
     background-image: radial-gradient(circle, #b8bec8 1px, transparent 1px);
     background-size: 4px 4px;
 }
