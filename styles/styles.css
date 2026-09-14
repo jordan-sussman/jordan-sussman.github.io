@@ -16,7 +16,6 @@ body {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
 }
 
@@ -81,7 +80,7 @@ body:has(.orb:hover) {
     line-height: 1.5;
     color: #111;
     letter-spacing: -0.01em;
-    padding: 0 2rem;
+    padding: 12rem 2rem 2rem 2rem;
     animation: fadeIn 0.8s ease 0.1s both;
 }
 
