@@ -47,8 +47,8 @@ body:has(.orb:hover) {
 }
 
 .orb {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;
