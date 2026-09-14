@@ -71,8 +71,22 @@ body:has(.orb:hover) {
     line-height: 1.1;
 }
 
-.history {
+.item-wrapper {
+    position: relative;
+    padding-left: 20px;
     max-width: 500px;
+}
+
+.item-wrapper::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 8px;
+
+    background-image: radial-gradient(circle, #b8bec8 1px, transparent 1px);
+    background-size: 4px 4px;
 }
 
 .bio {
@@ -81,7 +95,7 @@ body:has(.orb:hover) {
     line-height: 1.5;
     color: #111;
     letter-spacing: -0.01em;
-    padding: 12rem 2rem 2rem 2rem;
+    padding: 8rem 2rem 2rem 2rem;
     animation: fadeIn 0.8s ease 0.1s both;
 }
 
@@ -117,7 +131,7 @@ body:has(.orb:hover) {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-5px);
+        transform: translateY(-6px);
     }
 }
 
