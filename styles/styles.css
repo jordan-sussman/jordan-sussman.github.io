@@ -73,7 +73,7 @@ body:has(.orb:hover) {
 
 .item-wrapper {
     position: relative;
-    padding-left: 20px;
+    padding-left: 1.2em;
     max-width: 500px;
 }
 
@@ -81,8 +81,8 @@ body:has(.orb:hover) {
     content: "";
     position: absolute;
     left: 0;
-    top: 0;
-    bottom: 0;
+    top: 0.4em;
+    bottom: 0.4em;
     width: 8px;
     background-image: radial-gradient(circle, #b8bec8 1px, transparent 1px);
     background-size: 4px 4px;
@@ -103,15 +103,11 @@ body:has(.orb:hover) {
     font-weight: bold;
     text-decoration: underline;
     text-underline-offset: 3px;
+    font-size: 0.95em;
 }
 
 .bio a:hover {
     opacity: 0.5;
-}
-
-.bio .links {
-    font-size: 0.9em;
-    color: #555;
 }
 
 @keyframes fadeIn {
