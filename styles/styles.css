@@ -36,6 +36,25 @@ body:has(.orb:hover) {
     }
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
 /* Main */
 .hero {
     display: flex;
@@ -108,25 +127,6 @@ body:has(.orb:hover) {
 
 .bio a:hover {
     opacity: 0.5;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes float {
-    0%,
-    100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-6px);
-    }
 }
 
 /* Blog */
