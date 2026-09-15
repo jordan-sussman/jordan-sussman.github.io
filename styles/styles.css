@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Outfit:wght@400&display=swap");
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
 *,
 *::before,
 *::after {
@@ -33,25 +52,6 @@ body:has(.orb:hover) {
 
     .bio a {
         color: #ebebeb;
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes float {
-    0%,
-    100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-6px);
     }
 }
 
