@@ -10,12 +10,44 @@
 }
 
 @keyframes float {
-    0%,
+    0% {
+        transform: translateY(0) scale(1, 1);
+    }
+    30% {
+        transform: translateY(-5px) scale(0.96, 1.09);
+    }
+    55% {
+        transform: translateY(2px) scale(1.06, 0.93);
+    }
+    80% {
+        transform: translateY(-3px) scale(0.98, 1.05);
+    }
     100% {
-        transform: translateY(0px);
+        transform: translateY(0) scale(1, 1);
+    }
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 45% 55% 60% 40% / 60% 45% 55% 40%;
+    }
+    20% {
+        border-radius: 65% 35% 40% 60% / 40% 65% 35% 60%;
+    }
+    35% {
+        border-radius: 40% 60% 35% 65% / 70% 30% 60% 40%;
     }
     50% {
-        transform: translateY(-6px);
+        border-radius: 60% 40% 65% 35% / 30% 70% 40% 65%;
+    }
+    65% {
+        border-radius: 35% 65% 55% 45% / 55% 40% 65% 35%;
+    }
+    80% {
+        border-radius: 55% 45% 45% 55% / 45% 60% 35% 65%;
+    }
+    100% {
+        border-radius: 45% 55% 60% 40% / 60% 45% 55% 40%;
     }
 }
 
@@ -69,11 +101,13 @@ body:has(.orb:hover) {
 .orb {
     width: 60px;
     height: 60px;
-    border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;
-    animation: float 6s ease-in-out infinite;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    animation:
+        float 9s ease-in-out infinite,
+        morph 14s ease-in-out infinite;
+    position: relative;
 }
 
 .orb img {
